@@ -1,0 +1,116 @@
+span {
+    margin-right: 20px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 100vh;
+}
+
+.hero-left {
+  width: 60%;
+  margin-left: 3%;
+}
+
+
+
+
+.hero-heading {
+
+    margin-left: 8%;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 10%;
+}
+
+
+.hero-sub-heading {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 48px;
+}
+
+.hero-description {
+    margin-left: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.hero-buttons {
+    margin-left: 8%;
+    margin-top: 15%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    gap: 100px;
+    margin-top: 15%;
+}
+
+
+.btn {
+    border: 1px solid black;
+    background-color: #b5e48c;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.profile-image-section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8%;
+    z-index: 1;
+}
+
+.profile-image-section img {
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.341)) drop-shadow(0 0 80px rgba(171, 200, 246, 0.303));
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 50px;
+    }
+
+    .hero-sub-heading {
+        font-size: 30px;
+    }
+
+    .hero-description-todo {
+        font-size: 10px;
+    }
+
+    .hero-description {
+        font-size: 13px;
+    }
+
+    .hero-buttons {
+        margin-top: 10%;
+        gap: 200px;
+    }
+
+
+}

@@ -1,0 +1,88 @@
+.hero-section {
+    background-image: url("../assets/wave-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    min-height: 100vh;
+}
+
+.about-section {
+    background-image: url("../assets/stacked-waves-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    min-height: 100vh;
+}
+
+.project-section {
+    background:
+        radial-gradient(ellipse 600px 800px at 75% 70%,
+            rgba(0, 0, 0, 0.194),
+            transparent 70%),
+        linear-gradient(to bottom,
+            #ececec,
+            #c9c9c9);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.skills-section {
+    background-image: url("../assets/blob-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 100vh;
+}
+
+.contact-section {
+    background-image: url("../assets/layered-peaks-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 100vh;
+}
+
+
+
+
+
+
+.profile-photo {
+    height: 80vh;
+    object-fit: contain;
+    margin-right: 10%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .hero-section {
+        margin-top: 50px;
+    }
+
+    .profile-image-section {
+        margin-left: 5%;
+        height: 70vh;
+        justify-content: center;
+        /* center image */
+        padding-right: 0;
+        margin-top: 40px;
+    }
+
+    .profile-image-section img {
+        height: 60vh;
+        border-radius: 50%;
+        backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+        filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.341)) drop-shadow(0 0 80px rgba(171, 200, 246, 0.303));
+    }
+
+}

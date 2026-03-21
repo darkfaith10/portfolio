@@ -1,0 +1,104 @@
+
+.skills-section-main {
+    min-height: 100vh;
+    padding: 80px 8%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.skills-description-section {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.skills-grid>div {
+    flex: 1;
+    min-width: 280px;
+
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 16px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.3s ease;
+}
+
+
+.skills-grid>div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+.skills-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.skills-grid ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.skills-grid li {
+    font-size: 16px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+
+    background: white;
+    border-radius: 8px;
+
+    display: inline-block;
+    margin-right: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.08);
+
+    transition: all 0.2s ease;
+}
+
+
+.skills-grid li:hover {
+    background: #e9ecef;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+
+    .skills-description-section {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .skills-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills-grid>div {
+        width: 100%;
+    }
+
+    .skills-title {
+        text-align: center;
+    }
+
+    .skills-grid ul {
+        text-align: center;
+    }
+}
