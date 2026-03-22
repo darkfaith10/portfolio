@@ -36,7 +36,7 @@ function About() {
                         style={{ opacity: scene1, y: y1 }}
                     >
                         <div className="about-img">
-                            <img src="../public/assets/coding_image.png" alt="coding" />
+                            <img src="/../public/assets/coding_image.png" alt="coding" />
                         </div>
                         <div className="about-content">
                             <h3>I build modern web experiences</h3>
@@ -52,7 +52,7 @@ function About() {
                         style={{ opacity: scene2, y: y2 }}
                     >
                         <div className="about-img">
-                            <img src="../public/assets/learning_image.png" alt="learning" />
+                            <img src="/../public/assets/learning_image.png" alt="learning" />
                         </div>
                         <div className="about-content">
                             <h3>Always learning, always improving</h3>
@@ -68,7 +68,7 @@ function About() {
                         style={{ opacity: scene3, y: y3 }}
                     >
                         <div className="about-img">
-                            <img src="../../public/assets/football_image.jpeg" alt="football" />
+                            <img src="/../../public/assets/football_image.jpeg" alt="football" />
                         </div>
                         <div className="about-content">
                             <h3>More than just code</h3>
