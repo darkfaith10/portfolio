@@ -1,3 +1,6 @@
+
+import divridhImg from "../../public/assets/divridh.png"
+
 const projects = [
     {
         id: 1,
@@ -13,7 +16,7 @@ const projects = [
             "Nginx"
         ],
 
-        image: "/src/assets/divridh.png",
+        image: divridhImg,
 
         live: "https://divridh.com",
         github: "",
@@ -29,7 +32,7 @@ const projects = [
 
     {
         id: 2,
-        title: "AI Revision Card Generator",
+        title: "QueCards: AI Revision Card Generator",
         description: "An AI-powered tool to generate revision cards from PDFs and images for efficient studying.",
 
         tech: [
@@ -41,7 +44,7 @@ const projects = [
             "Railway"
         ],
 
-        image: "/src/assets/ai-card.png",
+        image: divridhImg,
 
         live: "",
         github: "",
@@ -68,7 +71,7 @@ const projects = [
             "html2canvas"
         ],
 
-        image: "/src/assets/formula.png",
+        image: divridhImg,
 
         live: "",
         github: "",

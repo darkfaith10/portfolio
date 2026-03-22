@@ -52,3 +52,37 @@
 .nav-links a:hover::after {
     width: 100%;
 }
+
+.hamburger {
+    position: absolute;
+    right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: black;
+    border-radius: 2px;
+}
+
+
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 3%;
+    }
+}
+
+
+@media (min-width: 769px) {
+
+    .hamburger {
+        display: none;
+    }
+}

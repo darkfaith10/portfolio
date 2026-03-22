@@ -5,11 +5,9 @@ function ProjectCard({ title, description, tools, image, onClick }) {
   return (
     <div className="project-card" onClick={onClick}>
 
-
       <div className="project-card-image-container">
         <img src={image} alt={title} />
       </div>
-
 
       <div className="project-card-content">
         <h3 className="project-card-title">{title}</h3>
@@ -22,9 +20,8 @@ function ProjectCard({ title, description, tools, image, onClick }) {
         </div>
       </div>
 
-
       <div className="project-overlay">
-        <p>View Details</p>
+        <p><a>View Details</a></p>
       </div>
 
     </div>

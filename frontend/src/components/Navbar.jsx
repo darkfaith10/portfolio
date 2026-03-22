@@ -7,6 +7,8 @@ function Navbar({ scrollContainerRef }) {
         container: scrollContainerRef?.current?.container
     });
 
+    
+
     const logoOpacity = useTransform(scrollY, [150, 300], [0, 1]);
     const logoScale = useTransform(scrollY, [0, 300], [1.2, 1]);
 

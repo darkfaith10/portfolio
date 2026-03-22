@@ -11,8 +11,8 @@ span {
 }
 
 .hero-left {
-  width: 60%;
-  margin-left: 3%;
+    width: 60%;
+    margin-left: 11%;
 }
 
 
@@ -20,7 +20,7 @@ span {
 
 .hero-heading {
 
-    margin-left: 8%;
+    /* margin-left: 8%; */
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -34,21 +34,21 @@ span {
 .hero-sub-heading {
     margin-top: 10px;
     margin-bottom: 0;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 48px;
 }
 
 .hero-description {
-    margin-left: 8%;
+    /* margin-left: 8%; */
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
 
 .hero-buttons {
-    margin-left: 8%;
+    /* margin-left: 8%; */
     margin-top: 15%;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
@@ -91,6 +91,10 @@ span {
 
 
 @media (max-width: 768px) {
+    .hero-container {
+        width: 100%;
+    }
+
     .hero-heading {
         font-size: 50px;
     }
@@ -108,9 +112,24 @@ span {
     }
 
     .hero-buttons {
+        width: 80%;
         margin-top: 10%;
-        gap: 200px;
+        gap: 47%;
     }
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-left {
+        width: 100%;
+        margin-left: 11%;
+    }
+
+    .profile-image-section {
+        width: 20%;
+    }
+
 
 
 }
