@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import "../styles/About.css";
 import { motion, useScroll, useTransform, useSpring, easeIn } from "framer-motion";
+import learning_image from "../../public/learning_image.png";
+import football_image from "../../public/football_image.jpeg";
+import coding_image from "../../public/coding_image.png";
 
 function About() {
     const ref = useRef();
@@ -36,7 +39,7 @@ function About() {
                         style={{ opacity: scene1, y: y1 }}
                     >
                         <div className="about-img">
-                            <img src="../public/coding_image.png" alt="coding" />
+                            <img src={coding_image} alt="coding" />
                         </div>
                         <div className="about-content">
                             <h3>I build modern web experiences</h3>
@@ -52,7 +55,7 @@ function About() {
                         style={{ opacity: scene2, y: y2 }}
                     >
                         <div className="about-img">
-                            <img src="../public/learning_image.png" alt="learning" />
+                            <img src={learning_image} alt="learning" />
                         </div>
                         <div className="about-content">
                             <h3>Always learning, always improving</h3>
@@ -68,7 +71,7 @@ function About() {
                         style={{ opacity: scene3, y: y3 }}
                     >
                         <div className="about-img">
-                            <img src="../../public/football_image.jpeg" alt="football" />
+                            <img src={football_image} alt="football" />
                         </div>
                         <div className="about-content">
                             <h3>More than just code</h3>

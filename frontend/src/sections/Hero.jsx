@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/Hero.css";
 import { motion, AnimatePresence, useScroll, useTransform, stagger } from "framer-motion";
+import vijay_photo from "../../public/vijay_photo.png"
+
+
 
 
 
@@ -45,7 +48,7 @@ function Hero() {
 
                 <div className="profile-image-section">
                     <motion.img
-                        src="../../public/vijay_photo.png"
+                        src={vijay_photo}
                         style={{ y: imageY }}
                         className="profile-photo"
                     />
