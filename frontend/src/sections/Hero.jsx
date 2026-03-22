@@ -45,7 +45,7 @@ function Hero() {
 
                 <div className="profile-image-section">
                     <motion.img
-                        src="/../../public/assets/vijay_photo.png"
+                        src="../../public/vijay_photo.png"
                         style={{ y: imageY }}
                         className="profile-photo"
                     />
