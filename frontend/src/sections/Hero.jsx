@@ -38,7 +38,7 @@ function Hero() {
                             Vijay
                         </motion.span>
                     </motion.h2>
-                    <motion.h3 className="hero-sub-heading" variants={item}>Frontend / MERN Developer</motion.h3>
+                    <motion.h3 className="hero-sub-heading" variants={item}>Full Stack / MERN Developer</motion.h3>
                     <motion.p className="hero-description" variants={item}>Building modern web experiences with clean code and great design.</motion.p>
                     <motion.div className="hero-buttons" variants={item}>
                         <a href="#projects" className="btn primary">View Projects</a>
