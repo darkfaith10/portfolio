@@ -1,5 +1,5 @@
 .hero-section {
-    background-image: url("../public/assets/wave-haikei.svg");
+    background-image: url("../../public/assets/wave-haikei.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .about-section {
-    background-image: url("../public/assets/stacked-waves-haikei.svg");
+    background-image: url("../../public/assets/stacked-waves-haikei.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .project-section {
-    background-image: url("../public/assets/layered-waves-haikei.svg");
+    background-image: url("../../public/assets/layered-waves-haikei.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,7 +29,7 @@
 }
 
 .skills-section {
-    background-image: url("../public/assets/blob-haikei.svg");
+    background-image: url("../../public/assets/blob-haikei.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,7 +38,7 @@
 }
 
 .contact-section {
-    background-image: url("../public/assets/layered-peaks-haikei.svg");
+    background-image: url("../../public/assets/layered-peaks-haikei.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

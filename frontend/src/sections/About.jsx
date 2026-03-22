@@ -68,7 +68,7 @@ function About() {
                         style={{ opacity: scene3, y: y3 }}
                     >
                         <div className="about-img">
-                            <img src="../public/assets/football_image.jpeg" alt="football" />
+                            <img src="../../public/assets/football_image.jpeg" alt="football" />
                         </div>
                         <div className="about-content">
                             <h3>More than just code</h3>
