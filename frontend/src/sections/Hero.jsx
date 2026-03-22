@@ -34,15 +34,23 @@ function Hero() {
                 <div className="hero-left">
                     <motion.h2 className="hero-heading" variants={item}>
                         Hi, I'm{" "}
-                        <motion.span style={{ display: "inline-block", fontSize: vijayLogo, y: vijayLogoY, opacity: textOpacity}}>
-                             Vijay
+                        <motion.span style={{ display: "inline-block", fontSize: vijayLogo, y: vijayLogoY, opacity: textOpacity }}>
+                            Vijay
                         </motion.span>
                     </motion.h2>
                     <motion.h3 className="hero-sub-heading" variants={item}>Frontend / MERN Developer</motion.h3>
                     <motion.p className="hero-description" variants={item}>Building modern web experiences with clean code and great design.</motion.p>
                     <motion.div className="hero-buttons" variants={item}>
-                        <button className="btn primary">View Projects</button>
-                        <button className="btn secondary">Hire Me</button>
+                        <a href="#projects" className="btn primary">View Projects</a>
+
+                        <a
+                            href="https://www.upwork.com/freelancers/vijays125?mp_source=share"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn secondary"
+                        >
+                            Hire Me
+                        </a>
                     </motion.div>
                 </div>
 

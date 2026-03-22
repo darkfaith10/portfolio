@@ -15,15 +15,23 @@ function Contact() {
             </p>
 
             <div className="contact-buttons">
-                <a href="#" className="btn primary">Hire Me</a>
-                <a href="#" className="btn secondary">View Upwork</a>
+                <a href="#projects" className="btn primary">View Projects</a>
+
+                <a
+                    href="https://www.upwork.com/freelancers/vijays125?mp_source=share"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn secondary"
+                >
+                    Hire Me
+                </a>
             </div>
 
             <div className="contact-links">
-                <a href="#">Email</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
-                <a href="#">Upwork</a>
+                <a href="mailto:kumarsinghvijay985@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/vijay-kumar-singh-darkfaith/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/darkfaith10" target="_blank">GitHub</a>
+                <a href="https://www.upwork.com/freelancers/vijays125?mp_source=share" target="_blank">Upwork</a>
             </div>
 
         </div>
